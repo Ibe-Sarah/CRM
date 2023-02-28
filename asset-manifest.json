@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CRM-dash/static/css/main.d8d4e68a.css",
-    "main.js": "/CRM-dash/static/js/main.39282b05.js",
-    "static/js/787.545aecf5.chunk.js": "/CRM-dash/static/js/787.545aecf5.chunk.js",
-    "static/media/logo.svg": "/CRM-dash/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/CRM-dash/index.html",
-    "main.d8d4e68a.css.map": "/CRM-dash/static/css/main.d8d4e68a.css.map",
-    "main.39282b05.js.map": "/CRM-dash/static/js/main.39282b05.js.map",
-    "787.545aecf5.chunk.js.map": "/CRM-dash/static/js/787.545aecf5.chunk.js.map"
+    "main.css": "/Ibe-Sarah/CRM.git/static/css/main.d8d4e68a.css",
+    "main.js": "/Ibe-Sarah/CRM.git/static/js/main.5986a3a0.js",
+    "static/js/787.545aecf5.chunk.js": "/Ibe-Sarah/CRM.git/static/js/787.545aecf5.chunk.js",
+    "static/media/logo.svg": "/Ibe-Sarah/CRM.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Ibe-Sarah/CRM.git/index.html",
+    "main.d8d4e68a.css.map": "/Ibe-Sarah/CRM.git/static/css/main.d8d4e68a.css.map",
+    "main.5986a3a0.js.map": "/Ibe-Sarah/CRM.git/static/js/main.5986a3a0.js.map",
+    "787.545aecf5.chunk.js.map": "/Ibe-Sarah/CRM.git/static/js/787.545aecf5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8d4e68a.css",
-    "static/js/main.39282b05.js"
+    "static/js/main.5986a3a0.js"
   ]
 }
