@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/%7BCRM-dash%7D/static/css/main.d8d4e68a.css",
-    "main.js": "/%7BCRM-dash%7D/static/js/main.fe3c754b.js",
-    "static/js/787.545aecf5.chunk.js": "/%7BCRM-dash%7D/static/js/787.545aecf5.chunk.js",
-    "static/media/logo.svg": "/%7BCRM-dash%7D/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/%7BCRM-dash%7D/index.html",
-    "main.d8d4e68a.css.map": "/%7BCRM-dash%7D/static/css/main.d8d4e68a.css.map",
-    "main.fe3c754b.js.map": "/%7BCRM-dash%7D/static/js/main.fe3c754b.js.map",
-    "787.545aecf5.chunk.js.map": "/%7BCRM-dash%7D/static/js/787.545aecf5.chunk.js.map"
+    "main.css": "/CRM-dash/static/css/main.d8d4e68a.css",
+    "main.js": "/CRM-dash/static/js/main.39282b05.js",
+    "static/js/787.545aecf5.chunk.js": "/CRM-dash/static/js/787.545aecf5.chunk.js",
+    "static/media/logo.svg": "/CRM-dash/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/CRM-dash/index.html",
+    "main.d8d4e68a.css.map": "/CRM-dash/static/css/main.d8d4e68a.css.map",
+    "main.39282b05.js.map": "/CRM-dash/static/js/main.39282b05.js.map",
+    "787.545aecf5.chunk.js.map": "/CRM-dash/static/js/787.545aecf5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8d4e68a.css",
-    "static/js/main.fe3c754b.js"
+    "static/js/main.39282b05.js"
   ]
 }
