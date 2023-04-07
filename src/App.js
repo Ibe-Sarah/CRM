@@ -1,27 +1,27 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Header from './component/header';
-import Sidebar from './component/sidebar';
-import Grid from './component/grid';
-import New from './component/new';
-import Toggle from './component/toggle';
-import Overlay from './component/overlay'
-import ListComponent from './component/list';
-import Form from './component/newTask';
+import CustomNavbar from './component/navbar';
+import Header from './component/navbar';
+import Main from './component/mainpage'
+import Contact from './component/contact'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return( 
+    <BrowserRouter>
 <div>
-  <Header/>
-  <New/> 
-  <Grid/>
-  <Sidebar/>
-  <ListComponent/> 
-  <Form/> 
-  
-  
+ <Header/>
+ <Main/>
+  <Contact/>
+  {/* <Routes>
+        <Route path="/" element={<Main />}>
+         <Route path="contact" element={<Contact />} />
+         
+          </Route>
+      </Routes> */}
 </div>
+</BrowserRouter>
 
 );
 }
