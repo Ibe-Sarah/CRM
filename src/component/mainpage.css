@@ -1,8 +1,10 @@
 .me{
     padding: 5em 2em 1em 3em;
+    color: rgb(197, 2, 2);
 }
 .details{
     padding-left: 3em;
+    color: white;
     /* text-align: justify; */
 }
 .laptop{
@@ -20,6 +22,10 @@
     padding-top: 1em;
     padding-right: 4em;
 }
+body{
+    background-color: black;
+}
+
 @media (max-width: 960px) {
     .me{
         padding: 5em 2em 1em 1em;

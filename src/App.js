@@ -6,6 +6,7 @@ import Header from './component/navbar';
 import Main from './component/mainpage'
 import Contact from './component/contact'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Skills from './component/skills';
 
 function App() {
   return( 
@@ -13,13 +14,14 @@ function App() {
 <div>
  <Header/>
  <Main/>
-  <Contact/>
-  {/* <Routes>
-        <Route path="/" element={<Main />}>
-         <Route path="contact" element={<Contact />} />
+  {/* <Contact/> */}
+  {/* <Skills/> */}
+  <Routes>
+        <Route >
+         <Route path="/contact" element={<Contact />} />
          
           </Route>
-      </Routes> */}
+      </Routes>
 </div>
 </BrowserRouter>
 

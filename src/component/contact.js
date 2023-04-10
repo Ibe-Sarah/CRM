@@ -41,19 +41,19 @@ const Contact = () => {
           <button type="submit">Send</button>
         </form>
       </div>
-      <div className="info-container">
+      <div ClassName="info-container">
         <h2>Connect With Me</h2>
         <div className="icon-container">
           <FaEnvelope className="icon" />
-          <a href="mailto:your.email@example.com">your.email@example.com</a>
+          <a href="mailto:ibesarah01@gmail.com">ibesarah01@gmail.com</a>
         </div>
         <div className="icon-container">
           <FaLinkedin className="icon" />
-          <a href="https://www.linkedin.com/in/your-linkedin-account/">Your LinkedIn Account</a>
+          <a href="https://www.linkedin.com/in/ibe-sarah-42a77b1ba">Ibe Sarah</a>
         </div>
         <div className="icon-container">
           <FaMapMarkerAlt className="icon" />
-          <p>Your Location</p>
+          <p>Lagos, Nigeria.</p>
         </div>
       </div>
     </div>
