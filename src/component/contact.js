@@ -14,7 +14,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-container">
+    <div style={{backgroundColor:'white'}} className="contact-container">
       <div className="form-container">
         <h2>Contact Me</h2>
         <form onSubmit={handleSubmit}>
@@ -41,7 +41,7 @@ const Contact = () => {
           <button type="submit">Send</button>
         </form>
       </div>
-      <div ClassName="info-container">
+      <div style={{color:'rgb(197, 2, 2)'}} ClassName="info-container">
         <h2>Connect With Me</h2>
         <div className="icon-container">
           <FaEnvelope className="icon" />
@@ -53,7 +53,7 @@ const Contact = () => {
         </div>
         <div className="icon-container">
           <FaMapMarkerAlt className="icon" />
-          <p>Lagos, Nigeria.</p>
+          <p style={{color:'black'}}>Lagos, Nigeria.</p>
         </div>
       </div>
     </div>

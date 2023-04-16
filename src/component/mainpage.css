@@ -12,6 +12,8 @@
     height: 22em;
     margin-top: -7em;
     margin-left: auto;
+    background-color: black !important;
+    
 }
 .image{
     display: flex;

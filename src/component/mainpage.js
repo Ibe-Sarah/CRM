@@ -3,13 +3,13 @@ import './mainpage.css';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import { Outlet, Link } from "react-router-dom";
-
+import { MdWavingHand } from "react-icons/md";
 
 function Main(){
     return(
      
         <div style={{backgroundColor:'black'}}>
-        <div className="me"><h1>Hi</h1>
+        <div className="me"><h1>Hi <MdWavingHand style={{color:'white'}}/></h1>
         <h3>
             I'm Sarah,
         </h3>
@@ -23,7 +23,7 @@ function Main(){
     </ButtonGroup>
        </p>
        
-        <img size={24} className='laptop' src={process.env.PUBLIC_URL + "/coding.png"}></img>
+        <img size={24} className='laptop' src={process.env.PUBLIC_URL + "/giphy.gif"}></img>
         </div>
         </div>
     )

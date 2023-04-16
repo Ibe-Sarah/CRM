@@ -13,6 +13,7 @@
   
   .form-container h2 {
     margin-top: 0;
+    color: rgb(197, 2, 2);
   }
   
   form {
@@ -23,6 +24,7 @@
   
   label {
     font-weight: bold;
+    color: rgb(197, 2, 2);
   }
   
   input,
@@ -36,11 +38,11 @@
   input:focus,
   textarea:focus {
     outline: none;
-    border-bottom-color: #0077ff;
+    border-bottom-color: black;
   }
   
   button[type="submit"] {
-    background-color: #0077ff;
+    background-color: rgb(197, 2, 2);
     color: white;
     border: none;
     border-radius: 5px;
@@ -56,6 +58,7 @@
   
   .info-container h2 {
     margin-top: 0;
+    color: rgb(197, 2, 2)!important;
   }
   
   .icon-container {
@@ -67,4 +70,8 @@
   
   .icon {
     font-size: 24px;
+  }
+  a{
+    text-decoration: none !important;
+    color: black !important;
   }

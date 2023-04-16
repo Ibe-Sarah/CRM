@@ -28,8 +28,8 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">About</Nav.Link>
-            <Link to="/contact"> <Nav.Link href="#">Contact</Nav.Link></Link>
+            {/* <Nav.Link href="#home">About</Nav.Link> */}
+            {/* <Link to="/contact"> <Nav.Link href="#">Contact</Nav.Link></Link> */}
             <NavDropdown title="Projects" id="basic-nav-dropdown">
               <NavDropdown.Item onClick={handleShowProjectModal}>Project 1</NavDropdown.Item>
               <NavDropdown.Item onClick={handleShowProject2Modal}>
