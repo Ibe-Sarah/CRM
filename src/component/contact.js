@@ -10,7 +10,25 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Send email using name, email, and message
-    console.log(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
+    event.preventDefault();
+    const formData = {
+      name,
+      email,
+      message,
+    };
+    try {
+      await fetch("https://formspree.io/f/myyabalv", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+      alert("Message sent successfully!");
+    } catch (error) {
+      console.error(error);
+      alert("There was an error sending your message. Please try again later.");
+    }
   };
 
   return (

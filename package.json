@@ -2,7 +2,7 @@
   "name": "dashboard",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://github.com/Ibe-Sarah/CRM.git",
+  "homepage": "https://Ibe-Sarah.github.io/CRM",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
