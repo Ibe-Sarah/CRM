@@ -22,7 +22,7 @@ function Header() {
 
   return (
     <>
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="white" expand="lg">
       <Container>
         <Navbar.Brand href="#home">SARAH IBE</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

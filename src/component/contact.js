@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaEnvelope, FaMapMarkerAlt, FaLinkedin } from "react-icons/fa";
+import { useForm, ValidationError } from '@formspree/react';
 import "./Contact.css";
 
 const Contact = () => {
@@ -7,8 +8,8 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = async (event) => {
+  
     // Send email using name, email, and message
     event.preventDefault();
     const formData = {

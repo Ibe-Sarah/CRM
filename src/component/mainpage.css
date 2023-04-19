@@ -1,18 +1,20 @@
 .me{
-    padding: 5em 2em 1em 3em;
-    color: rgb(197, 2, 2);
+    padding: 5em 2em 1em 7em;
+    color: black;
 }
 .details{
-    padding-left: 3em;
-    color: white;
+    padding-left: 7em;
+    color: black;
     /* text-align: justify; */
 }
 .laptop{
-    width:22em;
-    height: 22em;
-    margin-top: -7em;
-    margin-left: auto;
-    background-color: black !important;
+    width:18em;
+    height: 24em;
+    margin-top: -12em;
+    margin-left: 0.7em;
+    background-color:lightgoldenrodyellow !important;
+    border: 3px solid white;
+    border-radius: 10px !important;
     
 }
 .image{
@@ -25,7 +27,7 @@
     padding-right: 4em;
 }
 body{
-    background-color: black;
+    background-color:navy;
 }
 
 @media (max-width: 960px) {
