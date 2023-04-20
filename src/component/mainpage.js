@@ -23,7 +23,9 @@ function Main(){
     </ButtonGroup>
        </p>
        
+      <div style={{backroundColor:'black'}}>
         <img size={24} className='laptop' src={process.env.PUBLIC_URL + "/my-i.png"}></img>
+        </div>  
         </div>
         </div>
     )
