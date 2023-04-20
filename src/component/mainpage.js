@@ -8,7 +8,7 @@ import { MdWavingHand } from "react-icons/md";
 function Main(){
     return(
      
-        <div style={{backgroundColor:'white'}}>
+        <div style={{backgroundColor:'white', }}>
         <div className="me"><h1>Hi <MdWavingHand size={22} style={{color:'navy'}}/></h1>
         <h3>
             I'm Sarah,

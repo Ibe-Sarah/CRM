@@ -12,7 +12,7 @@
     height: 24em;
     margin-top: -12em;
     margin-left: 0.7em;
-    background-color:lightgoldenrodyellow !important;
+    background-color:#F6F6F6 !important;
     border: 3px solid white;
     border-radius: 10px !important;
     
@@ -32,11 +32,11 @@ body{
 
 @media (max-width: 960px) {
     .me{
-        padding: 5em 2em 1em 1em;
+        padding: 5em 1em 1em 3em;
     }
     
     .details{
-    padding-left: 1em;
+    padding-left: 3em;
         /* text-align: justify; */
         padding-right: 3em;
     }
@@ -47,10 +47,10 @@ body{
     
     }
     .laptop{
-        margin-top: -1em;
-        margin-left: 0.2em;
+        margin-top: 1em;
+        margin-left: 2em;
         width:18em;
-        height: 16em;
+        height: 21em;
         }
         .hireproject{
             padding-top: 2.5em;

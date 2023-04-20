@@ -35,7 +35,7 @@ const Contact = () => {
   return (
     <div style={{backgroundColor:'white'}} className="contact-container">
       <div className="form-container">
-        <h2>Contact Me</h2>
+        <h5>Contact Me</h5>
         <form onSubmit={handleSubmit}>
           <label htmlFor="name">Name:</label>
           <input
@@ -60,8 +60,8 @@ const Contact = () => {
           <button type="submit">Send</button>
         </form>
       </div>
-      <div style={{color:'rgb(197, 2, 2)'}} ClassName="info-container">
-        <h2>Connect With Me</h2>
+      <div style={{color:'black', boxShadow:'0 4px 8px 0 rgba(0,0,0,0.2)', backgroundColor:'white', borderRadius:'8px', paddingTop:'5em', width:'15em'}} ClassName="info-container">
+        <h5 style={{textAlign:'center'}}>Connect With Me</h5>
         <div className="icon-container">
           <FaEnvelope className="icon" />
           <a href="mailto:ibesarah01@gmail.com">ibesarah01@gmail.com</a>
