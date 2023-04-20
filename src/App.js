@@ -7,6 +7,8 @@ import Main from './component/mainpage'
 import Contact from './component/contact'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Skills from './component/skills';
+import Footer from './component/footer';
+
 
 function App() {
   return( 
@@ -23,6 +25,7 @@ function App() {
           </Route>
       </Routes>
 </div>
+<Footer/>
 </BrowserRouter>
 
 );

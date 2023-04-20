@@ -4,8 +4,8 @@
     justify-content: center;
     gap: 20px;
     padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-color:#F6F6F6!important;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    background-color:#EDF7FA!important;
     border-radius: 8px;
     margin-top: 2em;
   }
@@ -17,6 +17,8 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     padding-top: 4em;
+    height: 30em !important;
+    /* margin-left: -18em; */
 
 
   }
@@ -25,6 +27,7 @@
     margin-top: 0;
     color: black;
        text-align: center;
+       font-family: 'Clash Grotesk', sans-serif;
   }
   
   form {
@@ -37,6 +40,7 @@
   label {
     font-weight: bold;
     color: black;
+    font-family:'Archivo', sans-serif;
   }
   
   input,
@@ -54,29 +58,36 @@
   }
   
   button[type="submit"] {
-    background-color: navy;
+    background-color: #FF6464;
     color: white;
     border: none;
     border-radius: 5px;
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
-    margin-top: -0.5em;
+    margin-top:1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+    
+    
   }
   
   .info-container {
     flex: 1;
-    max-width: 400px;
+    max-width: 500px;
     background-color: white !important;
     border-radius: 8px !important;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
     text-align: center !;
+    
    
   }
   
   .info-container h5 {
     margin-top: 0;
-    color: rgb(197, 2, 2)!important;
+    font-family: 'Clash Grotesk', sans-serif;
+    
     text-align: center;
   }
   
@@ -90,16 +101,42 @@
   
   .icon {
     font-size: 16px;
-    color: navy;
+    color: #FF6464;
   }
   a{
     text-decoration: none !important;
     color: black !important;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
   }
+.icon-container p{
+  font-family: 'Archivo', sans-serif;
+  font-weight: 600;
 
+}
 
   @media (max-width: 960px) {
     .label{
         padding-top: 0.5em;
+        padding-bottom: 2em;
+
+
     }
+    .contact-container{
+      display: flex;
+      flex-direction: column;
+    }
+    .form-container{
+      margin-left: 1em;
+      height: 40em !important;
+    }
+    button[type="submit"] {
+      margin-top: -0.5em;
+    }
+
+    .navbar{}
+    .info-container{
+
+    margin-left: 1em !important;
+  }    
   }

@@ -9,7 +9,7 @@ function Main(){
     return(
      
         <div style={{backgroundColor:'white', }}>
-        <div className="me"><h1>Hi <MdWavingHand size={22} style={{color:'navy'}}/></h1>
+        <div className="me"><h1>Hi <MdWavingHand size={22} style={{color:'#FF6464'}}/></h1>
         <h3>
             I'm Sarah,
         </h3>
@@ -17,7 +17,7 @@ function Main(){
         </div>
        <div className="image"> <p className="details">I specalize in turning design concepts into clean, responsive, and accessible web interface that are both visually <br/>stunning and user-friendly.<br/> My passion for coding and attention to details enable me to create high-performance websites that meet <br/>client's needs and exceed their expectations. I work with HTML5, CSS3, JavaScript, Bootstrap,React and React-Bootstrap
       <br/> <ButtonGroup className="hireproject" aria-label="Basic example">
-      <Link to="/contact"> <Button style={{backgroundColor:'navy', color:'white', paddingLeft:'25px', paddingRight:'25px'}}variant="secondary">HIRE ME</Button></Link>
+      <Link to="/contact"> <Button style={{backgroundColor:'#FF6464', color:'white',border:'none',paddingLeft:'25px', paddingRight:'25px'}}variant="secondary">HIRE ME</Button></Link>
      
      
     </ButtonGroup>

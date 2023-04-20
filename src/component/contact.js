@@ -60,7 +60,7 @@ const Contact = () => {
           <button type="submit">Send</button>
         </form>
       </div>
-      <div style={{color:'black', boxShadow:'0 4px 8px 0 rgba(0,0,0,0.2)', backgroundColor:'white', borderRadius:'8px', paddingTop:'5em', width:'15em'}} ClassName="info-container">
+      <div style={{color:'black', boxShadow:'0 4px 8px 0 rgba(0,0,0,0.2)', backgroundColor:'white', borderRadius:'8px', paddingTop:'5em', height: '15em', marginTop:'5em'}} className="info-container">
         <h5 style={{textAlign:'center'}}>Connect With Me</h5>
         <div className="icon-container">
           <FaEnvelope className="icon" />
@@ -71,7 +71,7 @@ const Contact = () => {
           <a href="https://www.linkedin.com/in/ibe-sarah-42a77b1ba">Ibe Sarah</a>
         </div>
         <div className="icon-container">
-          <FaMapMarkerAlt className="icon" />
+          <FaMapMarkerAlt style={{marginTop:'-0.9em'}} className="icon" />
           <p style={{color:'black'}}>Lagos, Nigeria.</p>
         </div>
       </div>

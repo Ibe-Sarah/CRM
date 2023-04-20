@@ -22,15 +22,15 @@ function Header() {
 
   return (
     <>
-    <Navbar bg="white" expand="lg">
+    <Navbar style={{fontFamily:'clash Grotesk sans-serif', boxShadow:' 0 4px 8px 0 rgba(0,0,0,0.2)'}} bg="#EDF7FA" expand="lg" >
       <Container>
-        <Navbar.Brand href="#home">SARAH IBE</Navbar.Brand>
+        <Navbar.Brand className="ms-auto" href="#home">SARAH IBE</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="ml-auto" >
             {/* <Nav.Link href="#home">About</Nav.Link> */}
             {/* <Link to="/contact"> <Nav.Link href="#">Contact</Nav.Link></Link> */}
-            <NavDropdown title="Projects" id="basic-nav-dropdown">
+            <NavDropdown style={{fontFamily:'clash Grotesk sans-serif',}} title="Projects" id="basic-nav-dropdown">
               <NavDropdown.Item onClick={handleShowProjectModal}>Project 1</NavDropdown.Item>
               <NavDropdown.Item onClick={handleShowProject2Modal}>
               Project 2
@@ -50,34 +50,34 @@ function Header() {
           <Modal.Title>My Skills</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <div className="skill-bar">
+          <div style={{fontFamily:'clash Grotesk sans-serif'}} className="skill-bar">
             <span>HTML</span>
-            <ProgressBar now={80} label={`80%`} />
+            <ProgressBar now={90} label={`90%`} />
           </div>
-          <div className="skill-bar">
+          <div style={{fontFamily:'clash Grotesk sans-serif'}} className="skill-bar">
             <span>CSS</span>
-            <ProgressBar now={60} label={`60%`} />
+            <ProgressBar now={85} label={`85%`} />
           </div>
-          <div className="skill-bar">
+          <div style={{fontFamily:'clash Grotesk sans-serif'}} className="skill-bar">
             <span>JavaScript</span>
-            <ProgressBar now={50} label={`50%`} />
+            <ProgressBar now={65} label={`65%`} />
           </div>
-          <div className="skill-bar">
+          <div  style={{fontFamily:'clash Grotesk sans-serif'}}className="skill-bar">
             <span>React</span>
-            <ProgressBar now={40} label={`40%`} />
+            <ProgressBar now={50} label={`50%`} />
           </div>
         </Modal.Body>
       </Modal>
 
       <Modal show={showProjectModal} onHide={handleCloseProjectModal}>
         <Modal.Header closeButton>
-          <Modal.Title>Project 1</Modal.Title>
+          <Modal.Title style={{}}>Project 1</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Card>
             <Card.Img variant="top" src={process.env.PUBLIC_URL + "/landing.png"} />
             <Card.Body>
-              <Card.Text>
+              <Card.Text style={{fontFamily:'clash Grotesk sans-serif'}} >
                 This is a project I built using React and Bootstrap. It is a landing page for a CRM. Check it out on{" "}
                 <a href="https://github.com/your-username/project-1">
                   GitHub
@@ -100,7 +100,7 @@ function Header() {
           <Card>
             <Card.Img variant="top" src={process.env.PUBLIC_URL + "/election.png"} />
             <Card.Body>
-              <Card.Text>
+              <Card.Text style={{fontFamily:'clash Grotesk sans-serif'}}>
                 This is a project I built using HTML and CSS. It is a form for voters' opinion on their state election. Check
                 it out on{" "}
                 <a href="https://github.com/Ibe-Sarah/Election">
@@ -116,15 +116,15 @@ function Header() {
         </Modal.Body>
       </Modal>
 
-      <Modal show={showProject3Modal} onHide={handleCloseProject3Modal}>
+      <Modal  show={showProject3Modal} onHide={handleCloseProject3Modal}>
         <Modal.Header closeButton>
-          <Modal.Title>Project 1</Modal.Title>
+          <Modal.Title>Project 3</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Card>
             <Card.Img variant="top" src={process.env.PUBLIC_URL + "/home.png"} />
             <Card.Body>
-              <Card.Text>
+              <Card.Text style={{fontFamily:'clash Grotesk sans-serif'}}>
                 This is a project I built using HTML, CSS and Bootstrap. It is a homepage for a healt-care service provider. Check
                 it out on{" "}
                 <a href="https://github.com/Ibe-Sarah/homepage">

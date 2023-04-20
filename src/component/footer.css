@@ -1,0 +1,10 @@
+.footer{
+    margin-top: 3em;
+
+}
+.footer p{
+    color: #21243D;
+    text-align: center;
+    font-family: 'Clash Grotesk', sans-serif;
+    padding-top: 5em;
+}

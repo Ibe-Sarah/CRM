@@ -1,21 +1,28 @@
 .me{
-    padding: 5em 2em 1em 7em;
+    padding: 5em 2em 1em 10em;
     color: black;
+    font-family: 'Clash Grotesk', sans-serif;
+
 }
 .details{
-    padding-left: 7em;
+    padding-left: 10em;
     color: black;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
     /* text-align: justify; */
 }
 .laptop{
-    width:18em;
-    height: 24em;
-    margin-top: -12em;
+    width:13em;
+    height: 16em;
+    margin-top: -8em;
     margin-left: 0.3em;
-    background-color:#F6F6F6 !important;
+    background-color:#FFFFFF !important;
     border: 3px solid white;
     /* border-radius: 10px !important; */
-    border-bottom-left-radius: 65px !important;
+    border-bottom-left-radius: 50% !important;
+    border-top: 8px solid  #FF6464;
+    border-right:8px solid  #FF6464;
+    ;
     
 }
 .image{
@@ -34,24 +41,31 @@ body{
 @media (max-width: 960px) {
     .me{
         padding: 5em 1em 1em 3em;
+        order: 1 !important;
+        text-align: center;
     }
     
     .details{
     padding-left: 3em;
         /* text-align: justify; */
         padding-right: 3em;
+        order: 2 !important;
+        text-align: center;
     }
     .image{
         display: flex;
         flex-direction: column;
-        gap: 4px
-    
+        gap: 4px;
+
+        
     }
     .laptop{
         margin-top: 1em;
-        margin-left: 2em;
-        width:18em;
-        height: 23em;
+        margin-left: 6em;
+        width:15em;
+        height: 18em;
+        order: 1;
+        
         }
         .hireproject{
             padding-top: 2.5em;
