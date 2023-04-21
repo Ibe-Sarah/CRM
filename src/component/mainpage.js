@@ -17,7 +17,7 @@ function Main(){
         </div>
        <div className="image"> <p className="details">I specalize in turning design concepts into clean, responsive, and accessible web interface that are both visually <br/>stunning and user-friendly.<br/> My passion for coding and attention to details enable me to create high-performance websites that meet <br/>client's needs and exceed their expectations. I work with HTML5, CSS3, JavaScript, Bootstrap,React and React-Bootstrap
       <br/> <ButtonGroup className="hireproject" aria-label="Basic example">
-      <Link to="/contact"> <Button style={{backgroundColor:'#FF6464', color:'white',border:'none',paddingLeft:'25px', paddingRight:'25px'}}variant="secondary">HIRE ME</Button></Link>
+      <Link to="/contact"> <Button style={{backgroundColor:'#FF6464', color:'white',border:'none',paddingLeft:'28px', paddingRight:'28px'}}variant="secondary">HIRE ME</Button></Link>
      
      
     </ButtonGroup>
