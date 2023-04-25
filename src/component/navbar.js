@@ -24,7 +24,7 @@ function Header() {
     <>
     <Navbar style={{fontFamily:'clash Grotesk sans-serif', boxShadow:' 0 4px 8px 0 rgba(0,0,0,0.2)'}} bg="#EDF7FA" expand="lg" >
       <Container>
-        <Navbar.Brand className="ms-auto" href="#home">SARAH IBE</Navbar.Brand>
+        <Navbar.Brand className="ml-auto" href="#home">SARAH IBE</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto" >

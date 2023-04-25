@@ -127,7 +127,7 @@
       flex-direction: column;
     }
     .form-container{
-      margin-left: 0.3em;
+      margin-left: -1em;
       height: 40em !important;
     }
     button[type="submit"] {
@@ -137,7 +137,7 @@
     .navbar{}
     .info-container{
 
-    margin-left: 0.3em !important;
+    margin-left: -1em !important;
   }    
   }
   @media  (width: 768px) {
