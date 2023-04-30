@@ -31,11 +31,11 @@ function Header() {
             {/* <Nav.Link href="#home">About</Nav.Link> */}
             {/* <Link to="/contact"> <Nav.Link href="#">Contact</Nav.Link></Link> */}
             <NavDropdown style={{fontFamily:'clash Grotesk sans-serif',}} title="Projects" id="basic-nav-dropdown">
-              <NavDropdown.Item onClick={handleShowProjectModal}>Project 1</NavDropdown.Item>
+              <NavDropdown.Item onClick={handleShowProjectModal}>CRM Landing Page</NavDropdown.Item>
               <NavDropdown.Item onClick={handleShowProject2Modal}>
-              Project 2
+              Election Opinion Form
               </NavDropdown.Item>
-              <NavDropdown.Item  onClick={handleShowProject3Modal}>Project 3</NavDropdown.Item>
+              <NavDropdown.Item  onClick={handleShowProject3Modal}>Health Care Landing Page</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item onClick={handleShowModal}>
           My Skills
@@ -50,28 +50,42 @@ function Header() {
           <Modal.Title>My Skills</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <div style={{fontFamily:'clash Grotesk sans-serif'}} className="skill-bar">
+          <div style={{fontFamily:'Clash Grotesk sans-serif'}} className="skill-bar">
             <span>HTML</span>
             <ProgressBar now={90} label={`90%`} />
           </div>
-          <div style={{fontFamily:'clash Grotesk sans-serif'}} className="skill-bar">
+          <div style={{fontFamily:'Clash Grotesk sans-serif'}} className="skill-bar">
             <span>CSS</span>
             <ProgressBar now={85} label={`85%`} />
           </div>
-          <div style={{fontFamily:'clash Grotesk sans-serif'}} className="skill-bar">
+          <div style={{fontFamily:'Clash Grotesk sans-serif'}} className="skill-bar">
             <span>JavaScript</span>
             <ProgressBar now={65} label={`65%`} />
           </div>
-          <div  style={{fontFamily:'clash Grotesk sans-serif'}}className="skill-bar">
+          <div  style={{fontFamily:'Clash Grotesk sans-serif'}}className="skill-bar">
             <span>React</span>
             <ProgressBar now={50} label={`50%`} />
+          </div>
+          <strong>SOFT SKILLS </strong>
+          <div  style={{fontFamily:'Clash Grotesk sans-serif'}}className="skill-bar">
+            <span>Communication Skill</span>
+            <ProgressBar now={85} label={`85%`} />
+          </div>
+          <div  style={{fontFamily:'Clash Grotesk sans-serif'}}className="skill-bar">
+            <span>Attention to details</span>
+            <ProgressBar now={80} label={`80%`} />
+          </div>
+
+          <div  style={{fontFamily:'Clash Grotesk sans-serif'}}className="skill-bar">
+            <span>Problem Solving Skill</span>
+            <ProgressBar now={85} label={`80%`} />
           </div>
         </Modal.Body>
       </Modal>
 
       <Modal show={showProjectModal} onHide={handleCloseProjectModal}>
         <Modal.Header closeButton>
-          <Modal.Title style={{}}>Project 1</Modal.Title>
+          <Modal.Title style={{}}>CRM Landing Page</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Card>
@@ -94,7 +108,7 @@ function Header() {
 
       <Modal show={showProject2Modal} onHide={handleCloseProject2Modal}>
         <Modal.Header closeButton>
-          <Modal.Title>Project 2</Modal.Title>
+          <Modal.Title>Election Opinion Form</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Card>
@@ -118,7 +132,7 @@ function Header() {
 
       <Modal  show={showProject3Modal} onHide={handleCloseProject3Modal}>
         <Modal.Header closeButton>
-          <Modal.Title>Project 3</Modal.Title>
+          <Modal.Title>Health Care Landing Page</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Card>
